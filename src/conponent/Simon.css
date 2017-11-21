@@ -1,0 +1,36 @@
+.simonTable{
+    max-width: 600px;
+    /* border: 1px  solid black; */
+    margin: 10px auto;
+}
+.simonLogo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.simonDiskItem{
+    position: absolute; 
+    width: 250px;
+    height: 250px;
+    top: -10px; 
+    left: -10px; 
+    border: 1px solid black;
+    transform-origin: 100% 100%;
+}
+.simonDiskWraper{
+    position: relative;
+    border: 10px solid black;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;   
+    margin: 20px 0;
+}
+.controlItem{
+    margin-top: 5px;
+}
+.gameRuleItem{
+    line-height: 24px;
+}
+.gameRuleItem span{
+    font-weight: bold;
+}
