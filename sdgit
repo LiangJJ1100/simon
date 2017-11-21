@@ -1,0 +1,32 @@
+warning: LF will be replaced by CRLF in src/App.js.
+The file will have its original line endings in your working directory.
+[1mdiff --git a/README.md b/README.md[m
+[1mindex f925c03..e69de29 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -1,15 +0,0 @@[m
+[31m-<<<<<<< HEAD[m
+[31m-=======[m
+[31m-## 西蒙游戏（Simon Game）是一款考验短期记忆力的游戏[m
+[31m-[m
+[31m-**游戏规则：** 让玩家记住同颜色的亮灯循序后，依次点击，若通过考验将亮灯次数以及亮灯速度。若点击次序错误将消耗机会直至游戏结束。[m
+[31m-[m
+[31m-**严格模式：** 将没有错误机会，点击间隔限制5秒，若超时则游戏结束。[m
+[31m-[m
+[31m-### 关于项目 [m
+[31m-* UI：antd-react [m
+[31m-* 手脚架：create-react-app [m
+[31m-* 声音：web audio api （兼容火狐和谷歌） [m
+[31m-* 彩灯布局：css3 roate()+skew() 可设置 4-8个彩灯 [m
+[31m-* 颜色：hsl 通过色盘角度生成 [m
+[31m->>>>>>> 2e8a2b1cdbdb1840ac3adf2478eea1a45535261d[m
+[1mdiff --git a/src/App.js b/src/App.js[m
+[1mindex 71f052b..44dbb8d 100644[m
+[1m--- a/src/App.js[m
+[1m+++ b/src/App.js[m
+[36m@@ -1,5 +1,4 @@[m
+ import React, { Component } from 'react';[m
+[31m-// import all css[m
+ import '../node_modules/antd/dist/antd.min.css';[m
+ [m
+ import Simon from './conponent/Simon.js';[m
